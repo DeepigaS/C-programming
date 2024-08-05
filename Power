@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int power(int a, int b){
+    int c;
+    c=pow(a,b);
+    return c;
+}
+int main() {
+    int a,b,c;
+    int d;
+    scanf("%d %d",&a,&b);
+    d=power(a,b);
+    printf("Power:%d",d);
+    return 0;
+}
